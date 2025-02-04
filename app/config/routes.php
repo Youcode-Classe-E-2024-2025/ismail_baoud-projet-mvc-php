@@ -1,6 +1,10 @@
 <?php
-use app\core\Router;
 
-$router = new Router();
-$router->add('GET', '/', ['controllers\front\HomeController', 'index']);
-?>
+use app\controllers\front\HomaController;
+use app\models\Article;
+use app\views\back\cl;
+return [
+    // Public routes
+    '' => ['app\views\back\cl', 'db'],
+
+];

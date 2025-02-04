@@ -1,12 +1,27 @@
 <?php
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+session_start();
+require_once "../vendor/autoload.php";
 
-require_once '../vendor/autoload.php';
-require_once '../app/config/config.php';
+use app\core\Router;
+use app\models\Article;
 
-// Initialize the router
-$router = new app\core\Router();
-require_once '../app/config/routes.php';
-$router->dispatch($_SERVER['REQUEST_URI']);
+
+
+$controllerRouter = new Router();
+$routes = require_once "../app/config/routes.php";
+
+foreach ($routes as $path => $controller) {
+    $controllerRouter->add('GET', $path, $controller);
+    $controllerRouter->add('POST', $path, $controller);
+}
+
+
+
+
+
+$controllerRouter->dispatch(strtok($_SERVER['REQUEST_URI'], "?"));
+
 ?>
