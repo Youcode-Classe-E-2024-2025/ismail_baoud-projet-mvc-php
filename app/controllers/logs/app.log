@@ -1,0 +1,306 @@
+
+[2025-02-07 06:08:19] Update called with ID: 1 and data: {"title":"Sample Title","content":"Sample Content"}
+[2025-02-07 12:14:37] Article updated with ID: 27 and data: {"id":"27","title":"Atque ut dolores ali 12","content":"Deserunt eiusmod bea"}
+[2025-02-07 12:14:42] Article updated with ID: 27 and data: {"id":"27","title":"Atque ut dolores ali 12","content":"Deserunt eiusmod bea"}
+[2025-02-07 13:49:22] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12","content":"Pariatur Commodi ve 123"}
+[2025-02-07 13:49:57] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 R","content":"Pariatur Commodi ve 123"}
+[2025-02-07 13:51:54] Error: Title and content are required
+[2025-02-07 13:53:03] Error: Title and content are required
+[2025-02-07 13:56:04] Article updated with ID: 25 and data: {"id":"25","title":"Illo voluptas at q","content":"Est autem libero cor"}
+[2025-02-07 14:01:29] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:02:16] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:02:21] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:02:37] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:02:40] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:03:43] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:04:33] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:04:47] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 RE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:04:55] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 REE","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:41:46] Article updated with ID: 24 and data: {"id":"24","title":"Sit obcaecati sed re 12 REE3","content":"Pariatur Commodi ve 123"}
+[2025-02-07 14:46:05] Error: Unknown "asset" function.
+[2025-02-07 14:46:10] Error: Unknown "asset" function.
+[2025-02-07 14:48:35] Error: Unknown "url" function.
+[2025-02-07 14:50:28] Error: Unknown "asset" function.
+[2025-02-07 14:50:41] Error: Unknown "url" function.
+[2025-02-07 14:50:57] Error: Unknown "url" function.
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:57] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:50:59] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:00] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:00] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:00] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:00] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:00] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:00] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:01] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:06] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:07] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:37] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:51:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:52:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:54:55] Error: Unknown "url" function.
+[2025-02-07 14:55:22] Error: Unknown "url" function.
+[2025-02-07 14:55:45] Error: Unknown "url" function.
+[2025-02-07 14:57:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:38] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'
+[2025-02-07 14:57:39] Error: SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for type integer: "dashboard"
+CONTEXT:  unnamed portal parameter $1 = '...'

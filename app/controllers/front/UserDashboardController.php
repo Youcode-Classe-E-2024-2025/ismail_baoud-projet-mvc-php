@@ -1,8 +1,8 @@
 <?php
-
-namespace app\controllers\front;
+    namespace app\controllers\front;
 
 use app\core\Controller;
+use app\core\Validator;
 use app\models\User;
 use app\models\Article;
 use app\models\Category;
@@ -18,6 +18,17 @@ class UserDashboardController extends Controller {
     }
 
     public function index() {
+        if (!isset($_SESSION['user']) || !isset($_SESSION['user']['id'])) {
+            $this->redirect('/login');
+            return;
+        }
+
+        // Role check
+        if ($_SESSION["user"]["role"] !== 'user' && $_SESSION["user"]["role"] !== 'admin') {
+            $this->redirect('/');
+            return;
+        }
+
         $userId = $_SESSION['user']['id'];
         $userArticles = $this->articleModel->getArticlesByUser($userId, 1, 5);
         $totalArticles = $this->articleModel->getTotalArticlesByUser($userId);
@@ -47,7 +58,23 @@ class UserDashboardController extends Controller {
         }
 
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-           
+            $validator = new Validator();
+            $validator->validate($_POST, [
+                'title' => 'required',
+                'content' => 'required',
+                'category_id' => 'required'
+            ]);
+
+            if ($validator->fails()) {
+                $errors = $validator->getErrors();
+                // Render the create article view with errors
+                $this->view->render('dashboard/create_article.twig', [
+                    'errors' => $errors,
+                    'categories' => (new Category())->getAllCategories()
+                ]);
+                return;
+            }
+
             $userId = $_SESSION['user']['id'];
 
             $data = [
