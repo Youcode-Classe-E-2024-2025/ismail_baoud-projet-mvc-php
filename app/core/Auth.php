@@ -4,33 +4,43 @@ namespace app\core;
 
 use app\core\Controller;
 use app\models\User;
-use app\services\PasswordValidator;
+use app\core\Session;
+use app\core\Security;
+
+use app\core\Validator;
 
 class Auth extends Controller
 {
+    private $session;
     public function __construct()
     {
         parent::__construct();
-        $this->initSession();
-    }
-
-    private function initSession()
-    {
-        if (session_status() === PHP_SESSION_NONE) {
-            session_start();
-        }
+        $this->session = new Session();
+        $this->session->start();
     }
 
     public function login()
     {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            try {
-                if (!isset($_POST['email']) || !isset($_POST['password'])) {
-                    throw new \Exception('Email and password are required');
-                }
+            $validator = new Validator();
+            $validator->validate($_POST, [
+                'email' => 'required|email',
+                'password' => 'required',
+            ]);
 
+            if ($validator->fails()) {
+                $errors = $validator->getErrors();
+                $this->view->render('auth/login.twig', [
+                    'error' => $errors,
+                    'old' => ['email' => $_POST['email'] ?? '']
+                ]);
+                return;
+            }
+
+            try {
                 $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
                 if (!$email) {
+                    Security::logSecurityIssue('Invalid email format for login attempt.');
                     throw new \Exception('Invalid email format');
                 }
 
@@ -41,14 +51,18 @@ class Auth extends Controller
                 
                 $userModel = new User();
                 $user = $userModel->login($email, $password);
+                if (!$user) {
+                    Security::logSecurityIssue('Failed login attempt for email: ' . $email);
+                    throw new \Exception('Invalid credentials');
+                }
                 
                 // Store user data in session
-                $_SESSION['user'] = [
+                $this->session->setUser([
                     'id' => $user['id'],
                     'username' => $user['username'],
                     'email' => $user['email'],
                     'role' => $user['role']
-                ];
+                ]);
                 
                 // Redirect based on role
                 if ($user['role'] === 'admin') {
@@ -74,12 +88,27 @@ class Auth extends Controller
     public function register()
     {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            try {
-                if (!isset($_POST['username']) || !isset($_POST['email']) || 
-                    !isset($_POST['password']) || !isset($_POST['confirm_password'])) {
-                    throw new \Exception('All fields are required');
-                }
+            $validator = new Validator();
+            $validator->validate($_POST, [
+                'username' => 'required',
+                'email' => 'required|email',
+                'password' => 'required|min:8',
+                'confirm_password' => 'required|min:8',
+            ]);
 
+            if ($validator->fails()) {
+                $errors = $validator->getErrors();
+                $this->view->render('auth/register.twig', [
+                    'error' => $errors,
+                    'old' => [
+                    'username' => $_POST['username'] ?? '',
+                    'email' => $_POST['email'] ?? ''
+                    ]
+                ]);
+                return;
+            }
+
+            try {
                 $username = trim($_POST['username']);
                 $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
                 $password = $_POST['password'];
@@ -102,8 +131,8 @@ class Auth extends Controller
                 $this->view->render('auth/register.twig', [
                     'error' => $e->getMessage(),
                     'old' => [
-                        'username' => $_POST['username'] ?? '',
-                        'email' => $_POST['email'] ?? ''
+                    'username' => $_POST['username'] ?? '',
+                    'email' => $_POST['email'] ?? ''
                     ]
                 ]);
                 return;
@@ -150,42 +179,25 @@ class Auth extends Controller
 
     public function logout()
     {
-        $this->clearUserSession();
+        $this->session->clearUserSession();
         $this->setFlashMessage('success', 'You have been successfully logged out.');
         $this->redirect('/login');
     }
 
-    private function setUserSession($user)
-    {
-        $_SESSION['user_id'] = $user['id'];
-        $_SESSION['role'] = $user['role'];
-        $_SESSION['username'] = $user['username'];
-        $_SESSION['last_activity'] = time();
-    }
-
-    private function clearUserSession()
-    {
-        session_unset();
-        session_destroy();
-    }
-
     public function isLoggedIn()
     {
-        return isset($_SESSION['user_id']);
+        return $this->session->getUser() !== null;
     }
 
     public function redirectToIntended($default)
     {
-        $intended = $_SESSION['intended_url'] ?? $default;
-        unset($_SESSION['intended_url']);
+        $intended = $this->session->getIntendedUrl() ?? $default;
+        $this->session->clearIntendedUrl();
         $this->redirect($intended);
     }
 
     protected function setFlashMessage($type, $message)
     {
-        $_SESSION['flash_message'] = [
-            'type' => $type,
-            'message' => $message
-        ];
+        $this->session->setFlashMessage($type, $message);
     }
 }
