@@ -180,7 +180,7 @@ class Article {
 
     public function deleteArticle($id) {
         $stmt = $this->db->getConnection()->prepare("DELETE FROM articles WHERE id = :id");
-        $stmt->execute(['id' => $id]);
+        return $stmt->execute(['id' => $id]);
     }
 
     public function getPublishedArticles()
