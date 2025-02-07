@@ -108,7 +108,15 @@ class ArticleController extends BaseController {
             $this->logMessage("Article deleted with ID: $id");
             $loader = new \Twig\Loader\FilesystemLoader(__DIR__ . '/../views');
             $twig = new \Twig\Environment($loader);
-            echo $twig->render('articles/index.twig');
+            // echo $twig->render('/articles/index.twig');
+            if($_SESSION['user']['role'] === 'admin') {
+
+                $this->redirect('/admin/articles');
+            }else{
+                $this->redirect('/dashboard');
+
+            }
+
         } catch (\Exception $e) {
             $this->handleError($e);
             $this->logMessage("Error deleting article ID: $id - " . $e->getMessage());
