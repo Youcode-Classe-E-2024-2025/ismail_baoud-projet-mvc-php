@@ -1,0 +1,56 @@
+{% extends "layouts/base.twig" %}
+
+{% block title %}Admin - Users Management{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Users Management</h1>
+        <div>
+            <a href="{{ url('admin/dashboard') }}" class="btn btn-outline-primary me-2">Dashboard</a>
+            <a href="{{ url('admin/articles') }}" class="btn btn-outline-primary">Articles</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for user in users %}
+                        <tr>
+                            <td>{{ user.id }}</td>
+                            <td>{{ user.username }}</td>
+                            <td>{{ user.email }}</td>
+                            <td>{{ user.role }}</td>
+                            <td>
+                                <span class="badge bg-{{ user.status == 'active' ? 'success' : 'danger' }}">
+                                    {{ user.status == 'active' ? 'Active' : 'not' }}
+                                </span>
+                            </td>
+                            <td>
+                                <form action="{{ url('admin/users/' ~ user.id ~ '/toggle-status') }}" method="POST" class="d-inline">
+                                    <button type="submit" class="btn btn-sm btn-{{ user.status == 'active' ? 'warning' : 'success' }}">
+                                        {{ user.status == 'active' ? 'deactive' : 'active' }}
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
