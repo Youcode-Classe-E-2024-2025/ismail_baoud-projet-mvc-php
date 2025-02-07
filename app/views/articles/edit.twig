@@ -18,7 +18,7 @@
 
     <div class="bg-white shadow overflow-hidden sm:rounded-lg">
         <div class="px-4 py-5 sm:p-6">
-            <form action="/admin/articles/{{ article.id }}/update" method="POST">
+            <form action="/admin/articles/update/{{ article.id }}" method="POST">
                 <div class="space-y-6">
                     <!-- Title Field -->
                     <div>
@@ -44,9 +44,7 @@
 
                     <!-- Submit Button -->
                     <div class="flex justify-end">
-                        <button type="submit" class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                            Update Article
-                        </button>
+                        <button type="submit" class="btn btn-custom">Save Changes</button>
                     </div>
                 </div>
             </form>

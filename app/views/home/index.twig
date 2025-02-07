@@ -73,27 +73,5 @@
         </div>
     </div>
 
-    <!-- Categories section -->
-    {% if categories|length > 0 %}
-    <div class="bg-gray-50">
-        <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-            <div class="text-center">
-                <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">Browse by Category</h2>
-                <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
-                    Find articles that match your interests
-                </p>
-            </div>
-            <div class="mt-12 grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
-                {% for category in categories %}
-                <div class="col-span-1 flex justify-center">
-                    <a href="/articles?category={{ category.id }}" class="text-lg text-gray-600 hover:text-gray-900">
-                        {{ category.name }}
-                    </a>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    {% endif %}
 </div>
 {% endblock %}

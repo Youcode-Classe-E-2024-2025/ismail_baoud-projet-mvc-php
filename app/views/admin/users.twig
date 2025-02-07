@@ -40,7 +40,7 @@
                             </td>
                             <td>
                                 <form action="{{ url('admin/users/' ~ user.id ~ '/toggle-status') }}" method="POST" class="d-inline">
-                                    <button type="submit" class="btn btn-sm btn-{{ user.status == 'active' ? 'warning' : 'success' }}">
+                                    <button type="submit" class="btn btn-custom">
                                         {{ user.status == 'active' ? 'deactive' : 'active' }}
                                     </button>
                                 </form>
