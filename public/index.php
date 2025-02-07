@@ -23,5 +23,4 @@ foreach ($routes as $path => $controller) {
 
 
 $controllerRouter->dispatch(strtok($_SERVER['REQUEST_URI'], "?"));
-
 ?>
