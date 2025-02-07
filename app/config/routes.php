@@ -19,16 +19,15 @@ return [
     // User dashboard routes
     'dashboard' => ['app\controllers\front\UserDashboardController', 'index'],
     'dashboard/create-article' => ['app\controllers\front\UserDashboardController', 'createArticle'],
-    'dashboard/articles/edit/{id}' => ['app\controllers\front\UserDashboardController', 'editArticle'],
-    'dashboard/articles/delete/{id}' => ['app\controllers\front\UserDashboardController', 'deleteArticle'],
+    'dashboard/articles/edit/{id}' => ['app\controllers\ArticleController', 'edit'],
+    'dashboard/articles/delete/{id}' => ['app\controllers\ArticleController', 'delete'],
     
     // Admin routes
     'admin/dashboard' => ['app\controllers\back\AdminDashboardController', 'index'],
     'admin/users' => ['app\controllers\back\AdminDashboardController', 'users'],
     'admin/articles' => ['app\controllers\back\AdminDashboardController', 'articles'],
     'admin/users/{id}/toggle-status' => ['app\controllers\back\AdminDashboardController', 'toggleUserStatus'],
-    'admin/articles/{id}/delete' => ['app\controllers\back\ArticleAdminController', 'delete'],
-    '/articles/{id}/edit' => ['app\controllers\back\ArticleAdminController', 'edit'],
-    '/admin/articles/{id}/update' => ['app\controllers\back\ArticleAdminController', 'update']
+    '/articles/{id}/edit' => ['app\controllers\ArticleController', 'edit'],
+    '/admin/articles/update/{id}' => ['app\controllers\ArticleController', 'update']
 
 ];
